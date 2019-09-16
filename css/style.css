@@ -1,59 +1,57 @@
 body{
-  font-family: "Lucida Grande", sans-serif;
-  background: black;
-  color: white;
+  font-family: "Lucida Grande",sans-serif;
+  text-align:center;
+  background-color:black;
+  color:white;
 }
 h1{
   font-size: 64px;
-  text-align: center;
-}
-h2{
-  font-size: 32px;
-  filter:drop-shadow(4px 2px 2px black);
-}
-p{
-  font-size: 16px;
-  padding-top: 15px;
 }
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 550px;
-  height: auto;
+  overflow:hidden;
+  width:550px;
+  height:auto;
+}
+h2{
+  font-size:32px;
+  text-shadow:4px 4px 2px black;
+  vertical-align: middle;
+}
+p{
+  font-size:16px;
+  padding-top:15px;
+  vertical-align: middle;
 }
 div{
-  height: 100px;
-  padding: 30px 30px;
+  padding:30px 30px;
+  min-height: 100px;
 }
 #intro{
-  background-color: black;
-  text-align: left;
+  text-align:left;
 }
 #red{
-  background-color: red;
-  text-align: right;
+  text-align:right;
+  background-color:red;
 }
 #blue{
-  background-color: blue;
-  text-align: left;
+  text-align:left;
+  background-color:blue;
 }
 #yellow{
-  background-color: yellow;
-  text-align: right;
+  text-align:right;
+  background-color:yellow;
 }
-#yellow h2 {
-  color: black;
-  filter:drop-shadow(4px 2px 2px grey);
+#yellow h2{
+  color:black;
+  text-shadow:4px 4px 2px grey;
 }
-#yellow p {
-  color: black;
+#yellow p{
+  color:black;
 }
 #green{
-  background-color: green;
-  text-align: left;
+  text-align:left;
+  background-color:green;
 }
 footer{
-  text-align: center;
-  padding-bottom: 15px;
+  padding-bottom:15px;
 }
